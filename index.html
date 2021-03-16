@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+
+        <header id="header">
+            <div id="logo">
+                <a href="#">
+                    <img src="images/logo_200x40.png" alt="로고 이미지" width="200">
+                </a>
+            </div>
+
+            <nav id="gnb">
+                <ul id="mainMenu">
+                    <li><a href="#">탑</a>
+                        <ul class="subMenu subMenuFirst">
+                            <li><a href="#">블라우스</a></li>
+                            <li><a href="#">티</a></li>
+                            <li><a href="#">셔츠</a></li>
+                            <li><a href="#">니트</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">아우터</a>
+                        <ul class="subMenu">
+                            <li><a href="#">자켓</a></li>
+                            <li><a href="#">코트</a></li>
+                            <li><a href="#">가디건</a></li>
+                            <li><a href="#">머플러</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">팬츠</a>
+                        <ul class="subMenu">
+                            <li><a href="#">청바지</a></li>
+                            <li><a href="#">짧은바지</a></li>
+                            <li><a href="#">긴바지</a></li>
+                            <li><a href="#">레깅스</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">악세서리</a>
+                        <ul class="subMenu subMenuLast">
+                            <li><a href="#">귀고리</a></li>
+                            <li><a href="#">목걸이</a></li>
+                            <li><a href="#">반지</a></li>
+                            <li><a href="#">팔찌</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header> <!-- header#header -->
+
+        <main id="main">
+
+            <div id="slideshow">
+                <div id="shuttleFrame">
+
+                    <a href="#">
+                        <img src="images/slideshow_1200_01.jpg" alt="슬라이드 이미지" width="1200">
+                        <span class="promotionTxt">
+                            구속없는 자연스러운 배기팬츠
+                            <br>
+                            Cool wide pants 시원함을 입다
+                            <br>
+                            요즘대세 10% 린넨 셔츠
+                        </span>
+                    </a>
+
+                    <a href="#">
+                        <img src="images/slideshow_1200_02.jpg" alt="슬라이드 이미지" width="1200">
+                        <span class="promotionTxt">
+                            청바지
+                            <br>
+                            5중 워싱
+                        </span>
+                    </a>
+
+                    <a href="#">
+                        <img src="images/slideshow_1200_03.jpg" alt="슬라이드 이미지" width="1200">
+                        <span class="promotionTxt">
+                            바지 바지 바지
+                            <br>
+                            면바지
+                        </span>
+                    </a>
+
+
+                </div>
+                <!-- div#shuttleFrame -->
+
+            </div> <!-- div#slideshow -->
+
+            <aside id="aside">
+                <div id="bbs">
+                    <div id="tabArea">
+                        <button type="button" id="tabBtn1">
+                            공지사항
+                        </button>
+                        <button type="button" id="tabBtn2">
+                            갤러리
+                        </button>
+                        <div id="tabContents1">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="modalPoint">
+                                            <a href="#">2018하반기 직원채용</a>
+                                        </td>
+                                        <td class="modalPoint">
+                                            <a href="#">2018-10-19</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">입금자를 찾습니다.</a>
+                                        </td>
+                                        <td>
+                                            <a href="#">2017-10-10</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">5월 런칭 이벤트 회원 모집</a>
+                                        </td>
+                                        <td>
+                                            <a href="#">2017-10-06</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">1+1 행사를 진행합니다.</a>
+                                        </td>
+                                        <td>
+                                            <a href="#">2017-09-20</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> <!-- div#tabContents1 -->
+                        <div id="tabContents2">
+                            <a href="#"><img src="images/gallery_117_153_01.gif" alt="갤러리이미지1" width="102"></a>
+                            <a href="#"><img src="images/gallery_117_153_02.gif" alt="갤러리이미지2" width="102"></a>
+                            <a href="#"><img src="images/gallery_117_153_03.gif" alt="갤러리이미지3" width="102"></a>
+                        </div> <!-- div#tabContents2 -->
+                    </div> <!-- div#tabArea -->
+                </div>
+                <!-- BBS : 게시판-->
+
+                <div id="banner">
+                    <img src="images/banner_339_86.png" alt="배너광고 이미지" width="339">
+                </div>
+                <!-- Banner : 배너(광고 현수막)-->
+
+                <div id="shortcut">
+                    <img src="images/shortcut_339_122.png" alt="바로가기 이미지" width="339">
+                </div>
+                <!-- Shortcut : 숏컷(바로가기)-->
+
+            </aside> <!-- aside#aside -->
+
+        </main> <!-- main#main -->
+
+        <footer id="footer">
+            <div id="footerLogo">
+                <img src="images/logo_140x30.png" alt="하단 로고" width="140">
+            </div>
+            <!-- div#footerLogo -->
+
+            <div id="componyInfo">
+                <nav id="footerLNB">
+                    <ul>
+                        <li><a href="#">법적고지</a></li>
+                        <li><a href="#">개인정보취급방침</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    전화번호 : (059)200-3000
+                    사업자등록번호 : 6XX-0X-00000
+                    대표자 : ○○○
+                    <br>
+                    &copy; 2010 Corporation. all rights reserved
+                </div>
+            </div>
+            <!-- div#componyInfo -->
+            <div id="snsLink">
+                <img src="images/facebook.png" alt="페북아이콘" width="40">
+                <img src="images/instagram.png" alt="인스타아이콘" width="40">
+                <img src="images/twitter.png" alt="트위터아이콘" width="40">
+            </div>
+            <!-- div#snsLink -->
+        </footer> <!-- footer#footer -->
+
+
+    </div> <!-- div#wrap -->
+
+
+
+    <!-- 레이어 팝업 시작 -->
+    <div id="layerBG">
+        <div id="layerPopup">
+            <h2>제목 : ...</h2>
+            <p>내용 : ....</p>
+            <button type="button" id="closeBtn">닫기</button>
+        </div>
+    </div>
+    <!-- 레이어 팝업 끝 -->
+
+
+
+
+</body></html>
